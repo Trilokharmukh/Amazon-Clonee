@@ -1,0 +1,159 @@
+.Header-Main{
+ box-sizing: border-box;
+ box-sizing: fix;
+}
+.Header{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-logo img{
+    height: 59px;
+    width: 150px;
+}
+
+.location{
+    margin-top: 5px;
+    height: 60px;
+    width: 200px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    color:white;
+    box-sizing: fix;
+
+}
+
+.location .loc-icon img{
+    height: 25px;
+    width: 25px;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.location .loc-name{
+    margin-top: 8px;
+    /* background-color: red; */
+}
+
+.Search-container{
+    display: flex;
+    /* background-color: bisque; */
+    height: 42px;
+    width: 750px;
+    align-items: center;
+    margin-left: 15px;
+    box-sizing: fix;
+    border: 2px solid rgb(15, 15, 14);
+}
+.Search-container:hover{
+    display: flex;
+     background-color: rgb(15, 15, 14);
+     height: 42px;
+     /* width: 640px; */
+     align-items: center;
+     border: 2px solid orange;
+     border-radius: 8px;
+ }
+ 
+
+.all-cat{
+    /* position: absolute; */
+    
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px 0px 0px 5px;
+}
+.all-cat select{
+    /* position: absolute; */
+    
+    background-color: #f3f3f3;
+    margin-top: 3px;
+    height: 30px;
+    width: 40px;
+    
+    border: 0px;
+}
+
+.search{
+    width: 100%;
+}
+.search input{
+    /* position:absolute; */
+    box-sizing: border-box;
+    height: 40px;
+    width: inherit;
+    border-radius: 0;
+    margin: 0px;
+    border-color: black;
+    border: 0px;
+    padding-left: 15px;
+
+}
+
+.search-icon {
+    display: flex;
+        background-color: #febd69;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 5px 5px 0;
+}
+.search-icon img{
+    height: 20px;
+    width: 20px;
+
+}
+
+.right-container{
+    /* background-color: rgb(236, 236, 106); */
+    display: flex;
+    height: 40px;
+    width: 400px;
+    justify-content: space-around;
+    justify-items: center;
+    color:white;
+    font-size: 13px;
+}
+
+.flag img{
+    height: 30px;
+    width: 30px;
+}
+
+.right-container .cart img{
+    height: 50px;
+    width: 50px;
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+.subheader{
+    background-color: #232f3e;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.subheader div{
+   
+    min-width: 20px;
+    border: 1px solid #232f3e;
+    
+}
+.subheader div:hover{
+    border: 1px solid wheat;
+}
+
+
+.link div{
+    color: white;
+}
